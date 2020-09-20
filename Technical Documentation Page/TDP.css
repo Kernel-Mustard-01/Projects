@@ -1,0 +1,52 @@
+.main-section {
+    
+}
+
+#main-doc {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+}
+
+#t-d-w {
+    width: 75%;
+    margin-left: 320px;
+    grid: ;
+
+}
+
+header {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.nav-link {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#image {
+    width: 200px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+      display: none;
+    }
+  }

@@ -1,0 +1,70 @@
+<!doctype html>
+<style>
+#h1 {text-align: center};
+</style>
+
+<head>
+	<meta charset="utf-8">
+	<title>Test local</title>
+    
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "LMS_Test.css" />    
+
+</head>
+<body>
+
+        <h1><font size="20px">Register Your Riding Profile here.</font></h1>
+<br>
+        <p><font size="6px">Enter all the required information:</font></p>
+<br>
+        <label id="label1">First Name:</label>
+<br>
+        <input id="fname" placeholder="First Name" required >
+<br><br>
+        <label id="label2">Surname:</label>
+<br>
+        <input id="sname" placeholder="Surname" required >
+<br><br>
+        <label id="label3">Email Address:</label>
+<br>
+        <input id="emailaddress" type="email"  placeholder="Email Address" required >
+<br><br>
+        <label id="label4">Password:</label>
+<br>
+        <input  id="password" type:"password" placeholder="Password" required >
+<br><br>
+        <label id="label5">Race Number:</label>
+<br>
+        <input id="ridernumber" type:"text" placeholder="Race Number" required >
+    <div class="container" > 
+        <button class="btn btn1" onclick="addUser()">Add User!</button>
+</div>  
+<div class="container" > 
+        <button class="btn btn1" onclick="listusers()">List User!</button>
+</div>
+    <div id="listContainer"></div>
+<br><br>
+    
+<!--<table align="center">
+    <caption>Rider Profiles:</caption>
+<tr>
+    <th>First Name:</th>
+    <th>Surname:</th>
+    <th>Email Address:</th>
+    <th>Password:</th>
+    <th>Race Number:</th>
+    
+</tr>
+
+<tr>
+<td>Blair</td>
+<td>Fraser</td>
+<td>blairbumbum@gmail.com</td>
+<td>blair3007</td>
+<td>23</td>
+</tr>
+</table>-->
+
+<script src="LMS_Test.js"></script>
+</body>

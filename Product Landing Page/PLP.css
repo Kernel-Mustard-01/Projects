@@ -1,0 +1,73 @@
+body {
+    background-image: url('circle-blues.png');
+}
+
+.logo-image {
+    width: auto;
+    height: 70px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 100%;
+}
+
+.Sign-up-page {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Sign-up-form {
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.Submit-button {
+    align-items: center;
+}
+
+.video-page {
+    background-image: url('backFootball.jpg');
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.Team-photo {
+    height: 700px;
+    width: 1002;
+    background-image: url('TeamSH.jpg');
+    margin: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+       display: none;
+    }
+}

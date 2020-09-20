@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="Survey.css">
+    <script type="text/javascript" src="Survey.js"></script>
+</head>
+<body>
+    
+<div id = main>
+
+    <h1 id = "title">Compound Exercise Survey</h1>
+    <p id = "description">A short survey on your favourite compund excersises</p>
+    <img src="Compound.jpg" alt="Man completing deadlit">
+
+    <form id = "survey-form">
+    
+        <div class = "row-tab">
+
+            <div class = "label-exercise">
+                <label>First Name:</label>
+                </div>
+
+                <div class = "input-exercise">
+                <input type = "text" placeholder="First Name">
+            </div>
+
+            <div class = "label-exercise">
+                <label>Last Name:</label>
+                </div>
+
+                <div class = "input-exercise">
+                <input type = "text" placeholder="Last Name">
+            </div>
+
+            <div class = "label-exercise">
+                <label>Age:</label>
+                </div>
+    
+                <div class = "input-exercise">
+                <input type = "number" placeholder="Age">
+            </div>
+
+            <div class = "label-exercise">
+                <label>Email:</label>
+                </div>
+    
+                <div class = "input-exercise">
+                <input type = "email" placeholder="Email">
+            </div>
+        </div>
+
+        <div class = "row-tab">
+            <div class = "label-select">
+                <label>
+                    Select Favourite Exersise:
+                </label>
+            </div>
+
+            <div class = "input-select">
+                <select>
+                    <option value = "(Select...)">Select...</option>
+                    <option value = "Bench Press">Bench Press</option>
+                    <option value = "Deadlit">Deadlit</option>
+                    <option value = "Squat">Squat</option>
+                    <option value = "Push Up">Push Up</option>
+                    <option value = "Pull Up">Pull Up</option>
+                    <option value = "Lunge">Lunge</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row-tab">
+            <div class="label-radio">
+                Frequency programmed per week:
+            </div>
+            <div class="input-radio">
+            <div>
+            <label> x1
+            <input type="radio" name="Frequency">
+            </label>
+            </div>
+            <div>
+            <label> x2
+            <input type="radio" name="Frequency">
+            </label>
+            </div>
+            <div>
+            <label> x3
+            <input type="radio" name="Frequency">
+            </label>
+            </div>
+            <div>
+            <label> x4
+            <input type="radio" name="Frequency">
+            </label>
+            </div>
+            </div>
+        </div>
+
+        <div class="row-tab">
+            <div class="label-checkbox">
+                <label>Average training sessions per week:</label>
+            </div>
+            <div class="input-checkbox">
+                <label> < x3
+                <input type="checkbox">
+                </label>
+            </div>
+             <div>
+                <label> > x3
+                <input type="checkbox">
+                </label>
+            </div>
+        </div>
+
+        <div class="row-tab">
+            <textarea placeholder="(Comments...)"></textarea>
+        </div>
+
+        <div class="row-tab">
+            <button style="padding: 6px"> Submit </button>
+        </div>
+
+</form>
+</div>
+
+</body>
+</html>
