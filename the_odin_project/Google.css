@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    float: right;
+}
+
+.header a, .header button {
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.header button {
+    background: #4484f1;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+.main {
+    text-align: center;
+}
+
+.logo-img img {
+    box-sizing: content-box;
+    display: inline;
+    float: none;
+    line-height: normal;
+    position: static;
+    z-index: auto;
+    padding-top: 10px;
+    height: 72px;
+    width: auto;
+}
+
+.search-box input {
+    height: 40px;
+    width: 444px;
+}

@@ -1,0 +1,10 @@
+{
+"tweets":  [
+    {
+        "contents" : "hello"
+    },
+    {
+        "content" : "world"
+    }
+]
+}
