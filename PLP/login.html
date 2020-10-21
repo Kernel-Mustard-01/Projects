@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>CHPT - Login</title>
+</head>
+<body>
+
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+                <h3>Register</h3>
+
+                <input type="text" name="username" placeholder="username">
+                <p>Username must be alphanumeric and contain 5 - 12 characters</p>
+
+                <input type="password" name="password" placeholder="password">
+                <p>Password must be alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
+
+                <input type="email" name="email" placeholder="email address">
+                <p>Email must be a valid address, e.g. me@mydomain.com</p>
+
+                <button type="submit">Create</button>
+                <p class="message">Already Registered?<a href="#">Login</a></p>
+            </form>
+
+            
+            <form class="login-form">
+                <h3>Login</h3>
+                <input type="text" name="Lusername" placeholder="username">
+                <p>Username or password invalid</p>
+                <input type="password" name="Lpassword" placeholder="password">
+                <p>Username or password invalid</p>
+                <button type="submit">Login</button>
+                <p class="message">Not Registered?<a href="#">Register</a></p>
+            </form>
+
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
